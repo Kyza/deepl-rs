@@ -101,9 +101,9 @@ generate_langs! {
     ("DA",    "Danish");
     ("DE",    "German");
     ("EL",    "Greek");
-    ("EN",    "English (Unspecified variant)");
-    ("EN-GB", "English (American)");
-    ("EN-US", "English (British)");
+    ("EN",    "English");
+    ("EN-GB", "English (British)");
+    ("EN-US", "English (American)");
     ("ES",    "Spanish");
     ("ET",    "Estonian");
     ("FI",    "Finnish");
@@ -118,9 +118,9 @@ generate_langs! {
     ("NB",    "Norwegian");
     ("NL",    "Dutch");
     ("PL",    "Polish");
-    ("PT",    "Portuguese (all Portuguese varieties mixed)");
+    ("PT",    "Portuguese");
     ("PT-BR", "Portuguese (Brazilian)");
-    ("PT-PT", "Portuguese (All Portuguese varieties excluding Brazilian)");
+    ("PT-PT", "Portuguese (All Not Brazilian)");
     ("RO",    "Romanian");
     ("RU",    "Russian");
     ("SK",    "Slovak");
@@ -129,8 +129,8 @@ generate_langs! {
     ("TR",    "Turkish");
     ("UK",    "Ukrainian");
     ("ZH",    "Chinese");
-    ("ZH-HANS",    "Chinese (simplified)");
-    ("ZH-HANT",    "Chinese (tranditional)");
+    ("ZH-HANS",    "Chinese (Simplified)");
+    ("ZH-HANT",    "Chinese (Tranditional)");
 }
 
 impl<'de> Deserialize<'de> for Lang {
