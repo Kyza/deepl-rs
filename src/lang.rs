@@ -120,7 +120,7 @@ generate_langs! {
     ("PL",    "Polish");
     ("PT",    "Portuguese");
     ("PT-BR", "Portuguese (Brazilian)");
-    ("PT-PT", "Portuguese (All Not Brazilian)");
+    ("PT-PT", "Portuguese (Not Brazilian)");
     ("RO",    "Romanian");
     ("RU",    "Russian");
     ("SK",    "Slovak");
